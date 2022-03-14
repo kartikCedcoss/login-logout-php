@@ -9,5 +9,5 @@ if(isset($_POST['btnSubmit'])){
 }
 echo  "Hello--  "." ".$_SESSION['input1']." "."<br> <br>";
 echo   "Your Password is ".$_SESSION['input2']."<br> <br>";
-echo   "<a href='index.php'><input type=button name='logout' value='logout'></a>"
+echo   "<a href='logout.php'><input type=button name='logout' value='logout'></a>"
 ?>
